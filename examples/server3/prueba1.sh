@@ -2,7 +2,7 @@
 
 
 
-curl  -X POST "http://localhost:3000" -F 'accion=traer_lecturas_agua' -F 'ope_cat=332'
+curl  -X POST "http://localhost:8000" -F 'modulo=apk_agua' -F 'accion=traer_rutas'
 
 
 
